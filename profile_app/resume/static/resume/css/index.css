@@ -1,0 +1,62 @@
+body{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+.navbar ul{
+	list-style: none;
+	/*float:right;*/
+	line-height:74px;
+	font-size:18px;
+	margin-left:30px;
+}
+.navbar ul li{
+	display:inline-block;
+	margin-right: 30px; 
+}
+h2{
+	font-family: Brush Script MT, Brush Script Std, cursive	;
+}
+/*.about .container h1{
+	font-size: 200px;
+	color: grey;
+
+}*/
+.separator{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+.progress{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.title{
+	margin-bottom: 25px;
+}
+hr{
+	margin-right: auto;
+    margin-left: auto;
+    display: block;
+   
+    width: 22%;
+}
+.mr-bottom{
+	margin-bottom: 25px;
+}
+.mr-top{
+	margin-top:25px;
+}
+.about h1 a{
+	text-decoration: none;
+	color:green;
+}
+footer{
+	height:100px;
+	line-height: 80px;
+	background-color: #f7f7f7;
+	font-size: 18px;
+}
