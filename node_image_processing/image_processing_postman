@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "f081ed0e-29db-46bb-acc5-e4feee41adf7",
+		"name": "NODE_IMAGE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET LIST",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYWIyM2VmNWM2YTNmM2RiYjFkZjdmMyIsIm5hbWUiOiJyaXp3YW4gc2hhaWtoIiwiaWF0IjoxNjcyMzIxNDk5LCJleHAiOjE2NzIzMjUwOTl9.af_tUd3lShLiysNPrwCaIoe7OjhEW-cIL8AE_zJmY18",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:4000/api/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYWIyM2VmNWM2YTNmM2RiYjFkZjdmMyIsIm5hbWUiOiJyaXp3YW4gc2hhaWtoIiwiaWF0IjoxNjcyMzIxNDk5LCJleHAiOjE2NzIzMjUwOTl9.af_tUd3lShLiysNPrwCaIoe7OjhEW-cIL8AE_zJmY18",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"john doe\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/users/63abf664294dcd9dac8f2620/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"63abf664294dcd9dac8f2620",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYWQ5OGM1ZThlZGY2ZTRlY2M5ZTI1ZSIsIm5hbWUiOiJwcmFrYXNoIGthbWJsZSIsImlhdCI6MTY3MjMyMTI0NCwiZXhwIjoxNjcyMzI0ODQ0fQ.2fN520Uw-c-i9gQkS6Qe0pkNtL575Ab-dyaF4EJky2s",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:4000/api/users/63abf664294dcd9dac8f2620/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"63abf664294dcd9dac8f2620",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"john@abc.com\",\r\n    \"password\": \"As123456Ri\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/users/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"john doe\",\r\n    \"email\": \"john@abc.com\",\r\n    \"password\": \"As123456Ri\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYWIyM2VmNWM2YTNmM2RiYjFkZjdmMyIsIm5hbWUiOiJyaXp3YW4gc2hhaWtoIiwiaWF0IjoxNjcyMzIxNDk5LCJleHAiOjE2NzIzMjUwOTl9.af_tUd3lShLiysNPrwCaIoe7OjhEW-cIL8AE_zJmY18",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:4000/api/users/63ad99abe8edf6e4ecc9e26f/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"63ad99abe8edf6e4ecc9e26f",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
