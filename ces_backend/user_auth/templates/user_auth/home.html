@@ -1,0 +1,31 @@
+{% extends 'user_auth/base.html' %}
+
+{% block head %}
+    <style>
+        .jumbotron{
+                margin-top:70px;
+                background-color:transparent !important;
+            }
+            .landing{
+                background-image: url("/static/images/home-bg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                height:-webkit-calc(100% - (80px));;
+                width: 100%;
+            }
+    </style>
+{% endblock %}
+{% block content %}
+        <div class="container-fluid text-center landing">
+            {% if messages %}
+            {% for message in messages %}
+                <p class="text-center color-style">{{ message }}</p> 
+            {% endfor %}
+            {% endif %}              
+            <div class="jumbotron">
+                  <h1>Blogger World</h1>      
+                  <p>Blogger is the most popular blogger analyzing  platform for people on the web.</p>
+              </div>
+        </div>
+
+{% endblock %}
