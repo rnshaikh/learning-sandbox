@@ -1,0 +1,11 @@
+create 5
+park DL-12-AA-9999
+park DL-12-AA-9100
+park DL-12-AA-9200
+park DL-12-AA-9300
+park DL-12-AA-9400
+park DL-12-AA-9500
+park DL-12-AA-9600
+leave DL-12-AA-9300 5
+leave DL-12-AA-9300 10
+status
