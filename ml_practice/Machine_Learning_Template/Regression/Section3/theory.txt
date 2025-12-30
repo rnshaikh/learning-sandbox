@@ -1,0 +1,12 @@
+Simple Linear Regression
+
+	Y=b0+b1*x
+		y-dependant variable
+		x=indepedant variable
+		b0=initial constant value
+		b1=multiplier
+
+	y=salary x=experience b0=coefficiant at 0 x - when experience is 0
+	b1=multiplier how much salary will increase for every year of experience.
+	
+
