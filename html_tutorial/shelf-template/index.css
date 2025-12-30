@@ -1,0 +1,103 @@
+body{
+	background-image:url("/home/alive/Desktop/html-css-practice/shelf-template/img/shelf-bg.jpg");
+}
+
+header{
+	background-image:url("/home/alive/Desktop/html-css-practice/shelf-template/img/header-01.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+
+nav ul{
+	list-style: none;
+	/*//margin-top:350px;*/
+	background-color:rgba(47,35,35,0.45);
+	line-height:74px;
+	margin-top:300px;
+
+}
+nav ul li {
+	display:inline-block;
+	margin-right: 131px;
+}
+nav ul li a{
+	color:white;
+	font-size: 22px;
+	text-decoration: none !important;
+}
+header h1{
+	margin-left: 40px; 
+	font-size:40pt;
+	padding-left:40px;
+	padding-top:60px;
+	line-height: inherit;
+	color: white;
+}
+header h3{
+	margin-left: 40px;
+	padding-left:40px;
+	color: white;
+}
+main{
+	background-color: white;
+	padding-top:60px;
+	padding-bottom:20px;
+	border-top-color: blue;
+	border-top-width: thick;
+}
+article{
+	margin-left:30px;
+	margin-right: 30px;
+}
+article section{
+	margin-right: 30px;
+}
+article h2{
+	line-height: 45px;
+	margin-top:50px;
+	margin-bottom: 40px;
+}
+article p{
+	font-size: 18px;
+	word-spacing: 6px;
+	line-height: 35px;
+	margin-bottom:30px;
+}
+.gallary a{
+	margin-right:15px;
+}
+.t-margin{
+	margin-top:50px;
+}
+.live{
+	margin-top:100px;
+	margin-bottom:50px;
+	background-color: #337ab7;
+	color:white;
+}
+.live h1{
+	padding:50px 0px 30px 274px;
+}
+.live p{
+	padding:0px 0px 0px 274px;
+}
+.live a{
+	margin-left:274px;
+	font-size:large;
+	padding:10px 30px 10px 30px;
+	border-color: white;
+	margin-bottom:30px;
+}
+.live a:hover{
+	background: white;
+	color: #337ab7;
+	border-color: white;
+}
+footer{
+	color:white;
+}
+footer p{
+	line-height: 50px;
+	font-size:22px;
+}
